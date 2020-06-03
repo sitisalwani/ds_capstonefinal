@@ -1,5 +1,5 @@
 
-source("~/Documents/Cousera/10_dc_capstone/dc_final_submission/Predict.R")
+source("Predict.R")
 
 shinyServer(function(input, output) {
     output$blogs_pred <- renderText({

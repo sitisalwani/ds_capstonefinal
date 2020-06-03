@@ -1,0 +1,12 @@
+name: NLP_Prediction
+title: NLP_Prediction
+username:
+account: sitisalwani
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2398809
+bundleId: 3221050
+url: https://sitisalwani.shinyapps.io/NLP_Prediction/
+when: 1591150389.55661
+asMultiple: FALSE
+asStatic: FALSE

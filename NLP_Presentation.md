@@ -16,7 +16,7 @@ Download and extract three large files from the Swiftkey Dataset. Reduce the siz
 Algorithm and Model Building
 ========================================================
 
-- N-gram model with back-off strategy was used for the Natural Language Process.
+- N-gram model with back-off strategy was used for the Natural Language Process (NLP).
 - These data were then tokenised 3 times using 1-gram to 3-gram calculations using RWeka.
 
 - The algorithm predicts the next word based on the last 3 text inputs the user entered then starts to search using the 3-gram. If the next word isn't predicted, it selects the 2-gra,, then 1-gram. If nothing is found it falls back to a "default" of the word most often seen.
@@ -39,5 +39,5 @@ Apps and Resources
 
 - Average respond time under 2 - 3 seconds.
 - Application memory usage well under 150 MB.
-- Application running at :
-- Github link for various code files is at :
+- Application running at : https://sitisalwani.shinyapps.io/NLP_Prediction/
+- Github link for various code files is at : https://github.com/sitisalwani/ds_capstonefinal

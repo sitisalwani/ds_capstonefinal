@@ -2,7 +2,7 @@
 Blogs <- function(x) {
   require(tm)
   #load in sample dataset
-  blogs_sample <- read.csv(file = "~/Documents/Cousera/10_dc_capstone/dc_final_submission/blogs_sample.csv",stringsAsFactors = FALSE)
+  blogs_sample <- read.csv(file = "blogs_sample.csv",stringsAsFactors = FALSE)
   default <- blogs_sample[blogs_sample$length == 1,8]
   
   #"clean" incoming string
@@ -53,7 +53,7 @@ Blogs <- function(x) {
 Twitter <- function(x) {
   require(tm)
   #load in sample dataset
-  twitter_sample <- read.csv(file = "~/Documents/Cousera/10_dc_capstone/dc_final_submission/twitter_sample.csv",stringsAsFactors = FALSE)
+  twitter_sample <- read.csv(file = "twitter_sample.csv",stringsAsFactors = FALSE)
   default <- twitter_sample[twitter_sample$length == 1,8]
   
   #"clean" incoming string
@@ -104,7 +104,7 @@ Twitter <- function(x) {
 News <- function(x) {
   require(tm)
   #load in sample dataset
-  news_sample <- read.csv(file = "~/Documents/Cousera/10_dc_capstone/dc_final_submission/news_sample.csv",stringsAsFactors = FALSE)
+  news_sample <- read.csv(file = "news_sample.csv",stringsAsFactors = FALSE)
   default <- news_sample[news_sample$length == 1,8]
   
   #"clean" incoming string
