@@ -85,7 +85,7 @@ shinyUI(
             br(),
             
             p("Source code of this application is available at",
-              a(href = "https://","https://github.com/"))
+              a(href = "https://github.com/sitisalwani/ds_capstonefinal"))
         )
     )
 )
